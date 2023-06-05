@@ -3,4 +3,10 @@
   "extends": [
     "config:base",
   ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "rangeStrategy": "bump",
+    }
+  ]
 }
