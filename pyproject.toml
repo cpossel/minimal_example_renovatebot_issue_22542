@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=67.7", "setuptools-scm>=7.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minimal_example_renovatebot_issue_22542"
+readme = "README.md"
+requires-python = ">=3.8"
+dynamic = ["version"]
+dependencies = [
+    "numpy>1.21",
+    "pandas>=2.0.1",
+]
